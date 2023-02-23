@@ -1,0 +1,11 @@
+boot/backend/controller/NotFoundException.class
+boot/backend/controller/ConflictException.class
+boot/backend/repository/TaskSearchCriteria.class
+boot/backend/repository/TaskEntity.class
+boot/backend/repository/TaskSpecification.class
+boot/backend/controller/RestApiError.class
+boot/backend/controller/TaskController.class
+boot/backend/controller/RestExceptionHandler.class
+boot/backend/Lesson02BootBackendApplication.class
+boot/backend/repository/TaskEntity$State.class
+boot/backend/repository/TaskRepository.class
