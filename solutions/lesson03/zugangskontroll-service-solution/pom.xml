@@ -5,9 +5,9 @@
 
 	<parent>
         <groupId>spring-training</groupId>
-        <artifactId>lesson02-solutions</artifactId>
+        <artifactId>lesson03-solutions</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../</relativePath>
+        <relativePath>../pom.xml</relativePath>
 	</parent>
 
 	<groupId>com.anderscore.justparkit</groupId>

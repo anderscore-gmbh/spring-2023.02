@@ -13,7 +13,7 @@
     <artifactId>lesson02-solutions-jpa</artifactId>
     <packaging>jar</packaging>
 
-    <name>lesson04-solutions-jpa</name>
+    <name>lesson02-solutions-jpa</name>
     <description>Spring Boot mit JPA</description>
 
     <dependencies>

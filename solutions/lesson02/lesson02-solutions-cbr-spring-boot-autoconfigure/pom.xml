@@ -30,7 +30,7 @@
         </dependency>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>lesson03-solutions-cbr</artifactId>
+            <artifactId>lesson02-solutions-cbr</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>

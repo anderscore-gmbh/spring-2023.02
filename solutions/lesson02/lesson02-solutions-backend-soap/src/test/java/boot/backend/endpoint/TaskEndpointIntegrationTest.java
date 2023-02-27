@@ -1,6 +1,7 @@
 package boot.backend.endpoint;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -10,6 +11,7 @@ import org.springframework.xml.transform.StringSource;
 
 import javax.xml.transform.Source;
 
+import static boot.backend.endpoint.TaskEndpoint.NAMESPACE_URI;
 import static org.springframework.ws.test.server.RequestCreators.withPayload;
 import static org.springframework.ws.test.server.ResponseMatchers.*;
 
@@ -29,23 +31,23 @@ public class TaskEndpointIntegrationTest {
     @Test
     public void testCreateAndGetTask() {
         Source requestPayload = new StringSource(
-                "<ns2:createTaskRequest xmlns:ns2=\"http://www.anderscore.com/soap\">" +
-                        "<ns2:task><ns2:id>1</ns2:id><ns2:description>TestTask</ns2:description><ns2:state>DONE</ns2:state></ns2:task>" +
-                        "</ns2:createTaskRequest>");
+                "<as:createTaskRequest xmlns:as=\"" + NAMESPACE_URI + "\">" +
+                        "<as:task><as:id>1</as:id><as:description>TestTask</as:description><as:state>DONE</as:state></as:task>" +
+                        "</as:createTaskRequest>");
 
         mockClient
                 .sendRequest(withPayload(requestPayload))
                 .andExpect(noFault());
 
         requestPayload = new StringSource(
-                "<as:getTaskRequest xmlns:as=\"http://www.anderscore.com/soap\">" +
+                "<as:getTaskRequest xmlns:as=\"" + NAMESPACE_URI + "\">" +
                         "<as:id>1</as:id>" +
                         "</as:getTaskRequest>");
 
         Source responsePayload = new StringSource(
-                "<ns2:getTaskResponse xmlns:ns2=\"http://www.anderscore.com/soap\">" +
-                        "<ns2:task><ns2:id>1</ns2:id><ns2:description>TestTask</ns2:description><ns2:state>DONE</ns2:state></ns2:task>" +
-                        "</ns2:getTaskResponse>");
+                "<as:getTaskResponse xmlns:as=\"" + NAMESPACE_URI + "\">" +
+                        "<as:task><as:id>1</as:id><as:description>TestTask</as:description><as:state>DONE</as:state></as:task>" +
+                        "</as:getTaskResponse>");
 
         mockClient
                 .sendRequest(withPayload(requestPayload))
