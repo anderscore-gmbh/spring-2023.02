@@ -7,7 +7,7 @@ class ImplC--><rect fill="#DDEEE8" filter="url(#f1fetghx3zdc2g)" height="48" id=
 link MyService to UsedService--><path d="M99.09,32 C108.97,32 118.86,32 128.75,32 " fill="none" id="MyService-&gt;UsedService" style="stroke: #225C4D; stroke-width: 1.0;"/><polygon fill="#225C4D" points="133.91,32,124.9215,27.9743,128.91,31.9857,124.8986,35.9743,133.91,32" style="stroke: #225C4D; stroke-width: 1.0;"/><!--MD5=[59d3cbf50626bbf52fa09cfa8a5451c1]
 reverse link UsedService to ImplA--><path d="M150.88,70.75 C136.74,85.74 120.92,102.51 108.5,115.68 " fill="none" id="UsedService&lt;-ImplA" style="stroke: #225C4D; stroke-width: 1.0;"/><polygon fill="none" points="145.99,65.74,164.8,56,156.17,75.35,145.99,65.74" style="stroke: #225C4D; stroke-width: 1.0;"/><!--MD5=[f387df898f764d4ef8af149d7cdf85e8]
 reverse link UsedService to ImplB--><path d="M186.5,76.02 C186.5,89.58 186.5,104.04 186.5,115.68 " fill="none" id="UsedService&lt;-ImplB" style="stroke: #225C4D; stroke-width: 1.0;"/><polygon fill="none" points="179.5,76,186.5,56,193.5,76,179.5,76" style="stroke: #225C4D; stroke-width: 1.0;"/><!--MD5=[afb0d59e9e26e05da2ec94219dc57722]
-reverse link UsedService to ImplC--><path d="M222.12,70.75 C236.26,85.74 252.08,102.51 264.5,115.68 " fill="none" id="UsedService&lt;-ImplC" style="stroke: #225C4D; stroke-width: 1.0;"/><polygon fill="none" points="216.83,75.35,208.2,56,227.01,65.74,216.83,75.35" style="stroke: #225C4D; stroke-width: 1.0;"/><!--MD5=[f7be6e6a3eb89e42e4721f90b56ac1bb]
+reverse link UsedService to ImplC--><path d="M222.12,70.75 C236.26,85.74 252.08,102.51 264.5,115.68 " fill="none" id="UsedService&lt;-ImplC" style="stroke: #225C4D; stroke-width: 1.0;"/><polygon fill="none" points="216.83,75.35,208.2,56,227.01,65.74,216.83,75.35" style="stroke: #225C4D; stroke-width: 1.0;"/><!--MD5=[287c4c1bc3d4bce8c4c41b3143e27b5e]
 @startuml
 skinparam class {
  BackgroundColor #DDEEE8
@@ -27,7 +27,7 @@ PlantUML version 1.2019.12(Sun Nov 03 11:24:54 CET 2019)
 (APACHE source distribution)
 Java Runtime: OpenJDK Runtime Environment
 JVM: OpenJDK 64-Bit Server VM
-Java Version: 11.0.18+10-post-Debian-1deb11u1
+Java Version: 17.0.6+10-Debian-1deb11u1
 Operating System: Linux
 Default Encoding: UTF-8
 Language: en

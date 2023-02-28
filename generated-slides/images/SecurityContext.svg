@@ -10,7 +10,7 @@ reverse link Principal to Authentication--><path d="M555,95.44 C555,113.92 555,1
 link SecurityContext to Authentication--><path d="M461.19,197 C470.97,197 480.74,197 490.52,197 " fill="none" id="SecurityContext-&gt;Authentication" style="stroke: #225C4D; stroke-width: 1.0;"/><polygon fill="#225C4D" points="495.63,197,486.63,193,490.63,197,486.63,201,495.63,197" style="stroke: #225C4D; stroke-width: 1.0;"/><!--MD5=[94b1c8ac123e57f9c08f65047d00cbde]
 link Authentication to GrantedAuthority--><path d="M614.17,197 C624.09,197 634.01,197 643.93,197 " fill="none" id="Authentication-&gt;GrantedAuthority" style="stroke: #225C4D; stroke-width: 1.0;"/><polygon fill="#225C4D" points="649.11,197,640.11,193,644.11,197,640.11,201,649.11,197" style="stroke: #225C4D; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="7" x="634.3017" y="193.2538">*</text><!--MD5=[870d52f46d07a550b9e9374cff9acf4c]
 reverse link Authentication to UsernamePasswordAuthenticationToken--><path d="M489.22,253.19 C469.75,269.52 449.47,286.53 433.81,299.67 " fill="none" id="Authentication&lt;-UsernamePasswordAuthenticationToken" style="stroke: #225C4D; stroke-width: 1.0;"/><polygon fill="none" points="484.73,247.81,504.56,240.32,493.73,258.54,484.73,247.81" style="stroke: #225C4D; stroke-width: 1.0;"/><!--MD5=[bc44bb060c5018d08657c9ebdd4c745c]
-reverse link Authentication to OAuth2LoginAuthenticationToken--><path d="M621.22,253.19 C640.83,269.52 661.24,286.53 677.01,299.67 " fill="none" id="Authentication&lt;-OAuth2LoginAuthenticationToken" style="stroke: #225C4D; stroke-width: 1.0;"/><polygon fill="none" points="616.67,258.5,605.78,240.32,625.63,247.75,616.67,258.5" style="stroke: #225C4D; stroke-width: 1.0;"/><!--MD5=[63efddb8e7cb5e5b1d9efe8300f11a8c]
+reverse link Authentication to OAuth2LoginAuthenticationToken--><path d="M621.22,253.19 C640.83,269.52 661.24,286.53 677.01,299.67 " fill="none" id="Authentication&lt;-OAuth2LoginAuthenticationToken" style="stroke: #225C4D; stroke-width: 1.0;"/><polygon fill="none" points="616.67,258.5,605.78,240.32,625.63,247.75,616.67,258.5" style="stroke: #225C4D; stroke-width: 1.0;"/><!--MD5=[e25c76786e5c75961d450f31a8e26b1e]
 @startuml
 skinparam class {
  BackgroundColor #DDEEE8
@@ -49,7 +49,7 @@ PlantUML version 1.2019.12(Sun Nov 03 11:24:54 CET 2019)
 (APACHE source distribution)
 Java Runtime: OpenJDK Runtime Environment
 JVM: OpenJDK 64-Bit Server VM
-Java Version: 11.0.18+10-post-Debian-1deb11u1
+Java Version: 17.0.6+10-Debian-1deb11u1
 Operating System: Linux
 Default Encoding: UTF-8
 Language: en

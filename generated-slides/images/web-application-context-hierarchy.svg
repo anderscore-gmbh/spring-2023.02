@@ -21,7 +21,7 @@ reverse link ConfigurableWebApplicationContext to GenericWebApplicationContext--
 reverse link GenericWebApplicationContext to ServletWebServerApplicationContext--><path d="M909.55,182.09 C916.6,196.2 924.24,211.48 930.34,223.68 " fill="none" id="GenericWebApplicationContext&lt;-ServletWebServerApplicationContext" style="stroke: #225C4D; stroke-width: 1.0;"/><polygon fill="none" points="903.18,185.02,900.5,164,915.71,178.76,903.18,185.02" style="stroke: #225C4D; stroke-width: 1.0;"/><!--MD5=[8055d90d486e2c49dabbee8a8c70e760]
 reverse link ServletWebServerApplicationContext to AnnotationConfigServletWebServerApplicationContext--><path d="M885.36,282.35 C858.03,298.45 825.9,317.37 801.29,331.86 " fill="none" id="ServletWebServerApplicationContext&lt;-AnnotationConfigServletWebServerApplicationContext" style="stroke: #225C4D; stroke-width: 1.0;"/><polygon fill="none" points="882.16,276.12,902.94,272,889.26,288.18,882.16,276.12" style="stroke: #225C4D; stroke-width: 1.0;"/><!--MD5=[434c21df844756d3835e255599985187]
 reverse link ServletWebServerApplicationContext to XmlServletWebServerApplicationContext--><path d="M998.64,282.35 C1025.97,298.45 1058.1,317.37 1082.71,331.86 " fill="none" id="ServletWebServerApplicationContext&lt;-XmlServletWebServerApplicationContext" style="stroke: #225C4D; stroke-width: 1.0;"/><polygon fill="none" points="994.74,288.18,981.06,272,1001.84,276.12,994.74,288.18" style="stroke: #225C4D; stroke-width: 1.0;"/><!--MD5=[f2a4d70c4355320fb3d9fe426392120d]
-reverse link ConfigurableWebApplicationContext to StaticWebApplicationContext--><path d="M962.6,63.83 C1002.25,80.45 1050.36,100.6 1086.77,115.86 " fill="none" id="ConfigurableWebApplicationContext&lt;-StaticWebApplicationContext" style="stroke: #225C4D; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="none" points="959.64,70.19,943.9,56,965.05,57.27,959.64,70.19" style="stroke: #225C4D; stroke-width: 1.0;"/><!--MD5=[0625f5224d199ef259fdfa2a55c7399a]
+reverse link ConfigurableWebApplicationContext to StaticWebApplicationContext--><path d="M962.6,63.83 C1002.25,80.45 1050.36,100.6 1086.77,115.86 " fill="none" id="ConfigurableWebApplicationContext&lt;-StaticWebApplicationContext" style="stroke: #225C4D; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="none" points="959.64,70.19,943.9,56,965.05,57.27,959.64,70.19" style="stroke: #225C4D; stroke-width: 1.0;"/><!--MD5=[6fb812c4b301e099ffa84efac71e4d0c]
 @startuml
 skinparam class {
  BackgroundColor #DDEEE8
@@ -49,7 +49,7 @@ PlantUML version 1.2019.12(Sun Nov 03 11:24:54 CET 2019)
 (APACHE source distribution)
 Java Runtime: OpenJDK Runtime Environment
 JVM: OpenJDK 64-Bit Server VM
-Java Version: 11.0.18+10-post-Debian-1deb11u1
+Java Version: 17.0.6+10-Debian-1deb11u1
 Operating System: Linux
 Default Encoding: UTF-8
 Language: en
